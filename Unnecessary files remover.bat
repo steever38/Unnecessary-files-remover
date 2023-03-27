@@ -15,8 +15,8 @@ exit
 color B
 echo                                     #----------UNNECESSARY FILES REMOVER----------#
 set /p discord=Join the discord? (Y/N) : 
-if %discord%==y start https://discord.gg/3n3anzXvjD & echo Thanks!
-if %discord%==Y start https://discord.gg/3n3anzXvjD & echo Thanks!
+if %discord%==y start https://discord.gg/yCggt695tT & echo Thanks!
+if %discord%==Y start https://discord.gg/yCggt695tT & echo Thanks!
 if %discord%==n goto :cleanmgr
 if %discord%==N goto :cleanmgr else goto :erreur
 
@@ -83,7 +83,7 @@ goto :bin
 cls
 color B
 echo Thanks for using this script!
-echo Dicord : discord.gg/3n3anzXvjD
+echo Dicord : discord.gg/yCggt695tT
 echo Github : github.com/steever38
 pause
 goto :fin
