@@ -1,7 +1,7 @@
 @echo off
 :start
 @ECHO OFF
-title Unnecessary files remover by steever38#2032
+title Unnecessary files remover by steever38
 reg query HKU\S-1-5-19 1>nul 2>nul || (goto :Admin)
 goto :start2
 
